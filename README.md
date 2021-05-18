@@ -12,4 +12,4 @@ State changed and clickable manage with the CSV table(interactionTable,clickable
 https://xd.adobe.com/view/fecd1af2-9fc4-4cc3-531c-348be6379246-88fc/
 
 ### Live Link
-
+https://xarts.usfca.edu/~zhuang38/Project3/
