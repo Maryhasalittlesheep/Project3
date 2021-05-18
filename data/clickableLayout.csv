@@ -1,13 +1,35 @@
-ID,Name,State,PNGFilename,Text,x,y,visible
-0,StartScenario,Characters,,Start Scenario,100,650,yes
-1,Start_GoomazonPays,Start,,Goomazon,100,600,yes
-2,Start_CityPays,Start,,City Government,400,600,yes
-3,Start_RaiseTaxes,Start,,Raise Taxes,700,600,yes
-4,GoomazonMoves_CityPays,GoomazonMoves,,Yes: City Pays,100,600,yes
-5,GoomazonMoves_RaiseTaxes,GoomazonMoves,,Yes: Raise Taxes,300,600,yes
-6,GoomazonMoves_BuildRival,GoomazonMoves,,Build a Rival,500,600,yes
-7,GoomazonMoves_IgnoreThem,GoomazonMoves,,Ignore Them,700,600,yes
-8,CityPays_CutTheArts,CityPays,,The Arts,100,600,yes
-9,CityPays_CutTransportation,CityPays,,Transportation,300,600,yes
-10,CityPays_CutCityWages,CityPays,,City Wages,500,600,yes
-11,CityPays_CutParks,CityPays,,Parks,700,600,yes
+ID,Name,State,Text,PNGFilename,x,y,visible,text
+0,start,Splash,,assets/button/start.png,1000,650,yes,
+1,next,Introduction,,assets/button/next.png,1000,650,yes,
+2,next2,Instruction,,assets/button/next.png,1000,650,yes,
+3,start2,Character,,assets/button/start.png,1000,650,yes,
+4,cl1-1,s1,,assets/button/1-1.png,15,515,yes,
+5,cl1-2,s1,,assets/button/1-2.png,15,580,yes,
+6,cl1-3,s1,,assets/button/1-3.png,15,645,yes,
+7,cl2-1,s2,,assets/button/2-1.png,15,515,yes,
+8,cl2-2,s2,,assets/button/2-2.png,15,580,yes,
+9,cl3-1,s3,,assets/button/3-1.png,15,515,yes,
+10,cl3-2,s3,,assets/button/3-2.png,15,580,yes,
+11,cl3-3,s3,,assets/button/3-3.png,15,645,yes,
+12,cl4-1,s4,,assets/button/4-1.png,15,515,yes,
+13,cl5-1,s5,,assets/button/5-1.png,15,515,yes,
+14,cl5-2,s5,,assets/button/5-2.png,15,580,yes,
+15,cl6-1,s6,,assets/button/6-1.png,15,515,yes,
+16,cl6-2,s6,,assets/button/6-2.png,15,580,yes,
+17,cl7-1,s7,,assets/button/7-1.png,15,515,yes,
+18,cl7-2,s7,,assets/button/7-2.png,15,580,yes,
+19,cl8-1,s8,,assets/button/8-1.png,15,515,yes,
+20,cl8-2,s8,,assets/button/8-2.png,15,580,yes,
+21,cl9-1,s9,,assets/button/9-1.png,15,515,yes,
+22,cl9-2,s9,,assets/button/9-1.png,15,580,yes,
+23,restart,ending1,,assets/button/restart.png,520,640,yes,
+24,restart,ending2,,assets/button/restart.png,520,640,yes,
+25,restart,ending3,,assets/button/restart.png,520,640,yes,
+26,restart,ending4,,assets/button/restart.png,520,640,yes,
+27,restart,ending5,,assets/button/restart.png,520,640,yes,
+28,restart,ending6,,assets/button/restart.png,520,640,yes,
+29,restart,ending7,,assets/button/restart.png,520,640,yes,
+30,restart,ending8,,assets/button/restart.png,520,640,yes,
+31,restart,ending9,,assets/button/restart.png,520,640,yes,
+32,restart,ending10,,assets/button/restart.png,520,640,yes,
+,,,,,,,,
