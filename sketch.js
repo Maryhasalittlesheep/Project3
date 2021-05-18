@@ -1,3 +1,15 @@
+/***********************************************************************************
+Project 3: ASCO
+by Mary Huang
+
+Overview
+The ASCO is speculative technology design game that allow users playing adventrue state game, make decisions with the clickable buttons and lead to variety stroy endings
+
+
+Technical Details
+This program is using P5.2DAdventure.js library,P5.clickable.js library, P5.debugScreen.js library,P5.js library and P5.play.js
+State changed and clickable manage with the CSV table(interactionTable,clickableLayout,adventrueStates)
+***********************************************************************************/
 // adventure manager global  
 var adventureManager;
 
@@ -8,13 +20,6 @@ var playerAnimation;
 // Clickables: the manager class
 var clickablesManager;    // the manager class
 var clickables;           // an array of clickable objects
-
-
-// indexes into the clickable array (constants) 
-const start = 0;
-const next = 1;
-const next2 =2
-const start2 =3;
 
 
 // room indices - look at adventureManager
@@ -65,9 +70,7 @@ function setup() {
   // call OUR function to setup additional information about the p5.clickables
   // that are not in the array 
   setupClickables(); 
-
   fs = fullscreen();
-  print(mouseX,mouseY);
 }
 
 // Adventure manager handles it all!
@@ -78,11 +81,9 @@ function draw() {
   // draw the p5.clickables, in front of the mazes but behind the sprites 
   clickablesManager.draw();
 
-  fill(255);
-  textSize(30);
-  text(mouseX+mouseY,40,0)
   //sprite 
-
+  cellSprite = createSprite(1065,300,1000,300);
+  cellSprite.addAnimation('regular', loadAnimation('assets/cell/1.png', 'assets/cell/14.png'));
 }
 
 // pass to adventure manager, this do the draw / undraw events
@@ -142,6 +143,7 @@ clickableButtonPressed = function() {
 class SplashRoom extends PNGRoom{
   draw(){
     super.draw()
+    drawSprite(cellSprite);
   }
 }
 class ScenarioRoom extends PNGRoom {

@@ -1,13 +1,15 @@
-## FLipping
+## Project 3: ASCO
 #### by Mary Huang
 
-
-
 ### Overview
-This is an Social Justice topic project about Sexism in the different points of viewing in terms of male gender. 
-The game is controling Jason, the main character and going through differnt room and interact with differnt NPCs with the dialogue.
-
+The ASCO is speculative technology design game that allow users playing adventrue state game, make decisions with the clickable buttons and lead to variety stroy endings
 
 ### Technical Details
+This program is using P5.2DAdventure.js library,P5.clickable.js library, P5.debugScreen.js library,P5.js library and P5.play.js
+State changed and clickable manage with the CSV table(interactionTable,clickableLayout,adventrueStates)
 
-This program adding P5.Adventure.js library,P5.clickable.js library, and P5.play.js library. State mangement,State changed, and clickable items are manged through adventureStates.csv, clickableLayout.csv, and interactionTable.csv files. By using the class function to handle the changes of each subclass room load,draw functions to PNGRoom.
+### XD Link
+https://xd.adobe.com/view/fecd1af2-9fc4-4cc3-531c-348be6379246-88fc/
+
+### Live Link
+
